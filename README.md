@@ -6,7 +6,7 @@ A tool to assist in navigating the galaxy in No Man's Sky.
 
 ![Screenshot of the program in use](readme/screenshot1.png)
 
-Galactic Navigator is a small program to be used with No Man's Sky. It allows you to choose a location within the galaxy using a cylindrical coordinate system, and preview how this location would appear on the in-game minimap. This enables you to visually find a particular location within the galaxy.
+Galactic Navigator is a small program to be used with No Man's Sky. It allows you to choose a location within the galaxy using a cylindrical coordinate system, and preview how this location would appear on the in-game galactic minimap. This enables you to visually find a particular location within the galaxy.
 
 ## Copyright
 
