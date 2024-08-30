@@ -237,8 +237,8 @@ class GalaxyNavigatorWindow(QMainWindow):
         layout.addWidget(slider_layout_widget)
 
         self.theta_slider = TextboxSlider(0, 360, label="theta", parent=self, update_func=self.updateMap)
-        self.radius_slider = TextboxSlider(0, (2*(400*2047)**2)**0.5, label="r", parent=self, update_func=self.updateMap)
-        self.height_slider = TextboxSlider(-400*127, 400*127, label="z", parent=self, update_func=self.updateMap)
+        self.radius_slider = TextboxSlider(0, (2*(400*2047)**2)**0.5, label="r (ly)", parent=self, update_func=self.updateMap)
+        self.height_slider = TextboxSlider(-400*127, 400*127, label="z (ly)", parent=self, update_func=self.updateMap)
         self.portal_code = PortalCoordinateLabel()
         
         self.theta_slider.setVal(0)
